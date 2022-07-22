@@ -1,0 +1,105 @@
+.navbar-nav .nav-item .nav-link:focus {
+    text-decoration: underline;
+}
+
+.navbar-nav .nav-item:active {
+    text-decoration: underline;
+}
+
+.main-text {
+    margin:15% 0% 15% 5%;
+}
+
+h1 {
+    font-size: 6vw;
+    margin-bottom: 10%;
+}
+
+h2 {
+    font-size: 3vw;
+}
+
+h3 {
+    font-size: 2vw;
+}
+
+.sm-icons {
+    display: inline-table;
+}
+
+.navbar-main {
+    display: inline-table;
+}
+
+.navbar-main .nav-item {
+    display: table-cell;
+    text-align: center;
+}
+
+.sm-icons .nav-item {
+    display: table-cell;
+    text-align: center;
+}
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.navbar {
+    margin-top: 2em;
+}
+
+.main-content {
+    background-image: url(images/case-no-text.jpg); 
+    background-repeat:no-repeat; 
+    background-size:contain;
+}
+
+.empty-space {
+    display: block;
+}
+
+.register-form-large {
+    display: block;
+}
+
+.register-form-small {
+    display: none;
+}
+
+@media (max-width: 768px) { 
+    .main-content {
+        background-image: url(images/mobile-case.png); 
+        background-position: center;
+    }
+
+    .register-form-large {
+        display: none;
+    }
+
+    .register-form-small {
+        display: block;
+        margin-bottom: 10%;
+    }
+
+    .main-text { 
+        margin: 0% 0% 75% 5%;
+        padding: 0 10% 10%;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 9vw;
+    }
+
+    h2 {
+        padding-top: 2em;
+    }
+
+    .empty-space {
+        display: none;
+    }
+}
