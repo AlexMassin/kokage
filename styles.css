@@ -113,6 +113,10 @@ h3 {
     border-color: darkgreen;
 }
 
+.kokage-quote {
+    font-size: 40px
+}
+
 @media (max-width: 768px) { 
     .main-content {
         background-image: url(images/mobile\ 1.png); 
