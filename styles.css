@@ -17,14 +17,17 @@
 h1 {
     font-size: 6vw;
     margin-bottom: 10%;
+    font-weight: 700;
 }
 
 h2 {
     font-size: 3vw;
+
 }
 
 h3 {
     font-size: 2vw;
+    font-weight: 700;
 }
 
 .sm-icons {
@@ -70,7 +73,7 @@ h3 {
 }
 
 .main-content {
-    background-image: url(images/case-no-text.jpg); 
+    background-image: url(images/mainshot\ 1.png); 
     background-repeat:no-repeat; 
     background-size:cover;
 }
@@ -105,9 +108,14 @@ h3 {
     display: none;
 }
 
+.btn-primary {
+    background-color: darkgreen;
+    border-color: darkgreen;
+}
+
 @media (max-width: 768px) { 
     .main-content {
-        background-image: url(images/mobile-case.png); 
+        background-image: url(images/mobile\ 1.png); 
         background-position: center;
     }
 
@@ -117,18 +125,19 @@ h3 {
     }
 
     .coming-soon {
-        background-image: url(images/mobile.png); 
+        background-image: url(images/mobile\ 2.png); 
         background-position: center;
     }
 
     .premium-text {
-        margin-top: 1em !important;;
+        margin: 5% 0% 100% !important;
+        padding: 0 !important;
     }
 
     .main2-content {
         background-image: url(images/mobile2.png); 
         background-repeat:no-repeat; 
-        background-size:cover;
+        background-size:contain;
     }
 
     .main-text { 
@@ -137,12 +146,16 @@ h3 {
         text-align: center;
     }
 
-    .coming-soon-text {
-        margin: 5% 0% 140% !important;
+    .coming-soon-text {  
+        margin: 5% 0% 100% !important;
     }
 
     h1 {
         font-size: 9vw;
+    }
+
+    .mar-text {
+        font-size: 16px;
     }
 
     h2 {
