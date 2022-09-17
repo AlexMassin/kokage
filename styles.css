@@ -10,6 +10,10 @@
     margin:15% 0% 15% 5%;
 }
 
+.coming-soon-text {
+    margin:15% 0% 19% 5%;
+}
+
 h1 {
     font-size: 6vw;
     margin-bottom: 10%;
@@ -52,10 +56,41 @@ h3 {
     margin-top: 2em;
 }
 
+.fill {
+    padding-top: 50%;
+}
+
+.quote-text {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: larger;
+    font-weight: 600;
+}
+
 .main-content {
     background-image: url(images/case-no-text.jpg); 
     background-repeat:no-repeat; 
-    background-size:contain;
+    background-size:cover;
+}
+
+.main2-content {
+    background-image: url(images/mainshot2.png); 
+    background-repeat:no-repeat; 
+    background-size:cover;
+}
+
+.coming-soon {
+    background-image: url(images/mainshot3.png); 
+    background-repeat:no-repeat; 
+    background-size:cover;
+}
+
+.full-render {
+    background-image: url(images/full-render.png); 
+    background-repeat:no-repeat; 
+    background-size:cover;
 }
 
 .empty-space {
@@ -76,19 +111,34 @@ h3 {
         background-position: center;
     }
 
-    .register-form-large {
-        display: none;
+    .kokage-quote {
+        margin-left: 1em;
+        margin-right: 1em;
     }
 
-    .register-form-small {
-        display: block;
-        margin-bottom: 10%;
+    .coming-soon {
+        background-image: url(images/mobile.png); 
+        background-position: center;
+    }
+
+    .premium-text {
+        margin-top: 1em !important;;
+    }
+
+    .main2-content {
+        background-image: url(images/mobile2.png); 
+        background-repeat:no-repeat; 
+        background-size:cover;
     }
 
     .main-text { 
-        margin: 0% 0% 75% 5%;
+        margin: 0% 0% 75%;
         padding: 0 10% 10%;
         text-align: center;
+    }
+
+    .coming-soon-text {
+        margin: 5% 0% 140% !important;
     }
 
     h1 {
@@ -103,3 +153,4 @@ h3 {
         display: none;
     }
 }
+
