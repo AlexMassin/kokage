@@ -116,6 +116,19 @@ h3 {
     font-size: 40px
 }
 
+.about-paragraph {
+    background-image: url(images/text\ arrows.png);
+    background-size: contain;
+    padding: 50px;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 1200px) { 
+    .about-paragraph {
+        background-image: none;
+    }
+}
+
 @media (max-width: 768px) { 
     .main-content {
         background-image: url(images/mobile\ 1.png); 
