@@ -118,9 +118,9 @@ h3 {
 
 .about-paragraph {
     background-image: url(images/text\ arrows.png);
-    background-size: contain;
+    background-size: cover;
     padding: 50px;
-    background-repeat: no-repeat;
+    background-repeat: round;
 }
 
 @media (max-width: 1200px) { 
@@ -129,11 +129,18 @@ h3 {
     }
 }
 
+@media (max-width: 1000px) {
+    .about-titles {
+        text-align: center;
+    }
+}
+
 @media (max-width: 768px) { 
     .main-content {
         background-image: url(images/mobile\ 1.png); 
         background-position: center;
     }
+
 
     .kokage-quote {
         margin-left: 1em;
